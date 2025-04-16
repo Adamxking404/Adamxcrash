@@ -1,61 +1,33 @@
-from os import system
-from threading import Thread
-from time import sleep
-from webbrowser import open as open_url
-from email.message import EmailMessage
-from smtplib import SMTP
+import os
+import time
 
-def send_email(gmail, password, subject, body):
-    msg = EmailMessage()
-    msg['Subject'] = subject
-    msg['From'] = gmail
-    msg['To'] = 'support@support.whatsapp.com'
-    msg.set_content(body)
-    
-    try:
-        with SMTP('smtp.gmail.com', 587) as s:
-            s.starttls()
-            s.login(gmail, password)
-            s.send_message(msg)
-            print("[+] Email sent successfully!")
-    except Exception as e:
-        print(f"[-] Failed to send email: {e}")
-    sleep(0.5)
+def clear():
+    os.system('clear' if os.name == 'posix' else 'cls')
 
-def main():
-    logo = '''
-===================================
- WHATSAPP SUPPORT TOOL - BY ADAM
-===================================
-[1] Request number ban
-[2] Request number unban
-[0] Exit
-'''
-    while True:
-        system('cls' if system('echo') == 0 else 'clear')
-        print(logo)
-        choice = input("Select an option: ")
+def banner():
+    print("\033[1;91m")  # Blue color
+    print("       _   ___   _   __  __  ")
+    print("      /_\ |   \ /_\ |  \/  | ")
+    print("     / _ \| |) / _ \| |\/| | ")
+    print("    /_/ \_\___/_/ \_\_|  |_| ")
+    print("\033[0m")  # Reset color
+    print("  A WHATSAPP NUMBER BAN TOOL BY DARK ADAM\n")
+    print("\033[0;36m")  # Cyan color
+    print(" - Discord : kine azul#3189")
+    print(" - Github  : https://github.com/Adamxking404")
+    print(" - Telegram: @Adamxking")
+    print("\033[0m")  # Reset color
+    print("\n [ 1 ] Ban number")
+    print(" [ 2 ] Unban number")
+    print(" [ 0 ] Exit")
 
-        if choice == '0':
-            break
-        elif choice in ['1', '2']:
-            open_url('https://myaccount.google.com/lesssecureapps')
+def ban_number():
+    number = input("\nEnter number to ban: ")
+    print(f"\nBanning {number}...")
+    time.sleep(2)
+    print(f"{number} successfully banned!")
 
-            number = input("Enter your phone number (e.g. +1234567890): ")
-            gmail = input("Enter your Gmail address: ")
-            password = input("Enter your Gmail password (use app password if 2FA is enabled): ")
-
-            if choice == '1':
-                subject = "Please deactivate my number"
-                body = f"I would like to request the temporary deactivation of my WhatsApp account. My number: {number}"
-            else:
-                subject = "My number was unfairly banned"
-                body = f"My WhatsApp account was banned without explanation. I need this number for work. Please review it. My number: {number}"
-
-            for _ in range(1):  # You can change the range value to control how many emails are sent
-                Thread(target=send_email, args=(gmail, password, subject, body)).start()
-        else:
-            print("Invalid option. Please try again.")
-
-if __name__ == '__main__':
-    main()
+def unban_number():
+    number = input("\nEnter number to unban: ")
+    print(f"\nUnbanning {number}...")
+    time.sleep(2)
