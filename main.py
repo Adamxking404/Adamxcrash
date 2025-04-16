@@ -59,7 +59,7 @@ logo='''%s
 | | | |/ /__\ \| | | | |   | |
 |_| |_/________\_| |_|_|   |_|
 %s
-%s•%sA WHATSAPP NUMBER BAN TOOL BY DARK ADAM\n\n'''%(Azul,Branco,Azul,Branco)
+%s•%s A WHATSAPP NUMBER BAN TOOL BY DARK ADAM\n\n'''%(Azul,Branco,Azul,Branco)
 ##################
 if __name__ == '__main__':
 	main()
