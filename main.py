@@ -27,7 +27,8 @@ def init(gmail, password, titulo, body):
 def main():
 	while True:
 		system('cls||clear')
-		op = input('''%s- %sWhatsapp%s  : unkown
+		op = input('''%s- %Github% : @Adamxking404
+  %sWhatsapp%s  : unkown
 - %sTelegram%s : @Adamxking\n\n[%s 1 %s] %s|%s Ban number\n[%s 2 %s] %s|%s Unban number\n[%s 0 %s] %s|%s Exit\n%s===> %s'''%(logo,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco))
 		if op in ['0']:
 			break
@@ -55,7 +56,7 @@ logo='''%s
    /_\ |   \ /_\ |  \/  |
   / _ \| |) / _ \| |\/| |
  /_/ \_\___/_/ \_\_|  |_|
-%s\n%s•%sA Whatsapp Number Ban Tool By Dark Adam\n%s•%s Turn on the less secure apps option.\n'''%(Azul,Branco,Azul,Branco)
+%sA Whatsapp Number Ban Tool By Dark Adam\n%s•%s Turn on the less secure apps option.\n'''%(Azul,Branco,Azul,Branco)
 ##################
 if __name__ == '__main__':
 	main()
