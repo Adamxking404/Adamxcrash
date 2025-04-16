@@ -12,7 +12,7 @@ apt install git python -y
 git clone https://github.com/Adamxking404/Adamxcrash
 ```
 ```
-cd SpamReport
+cd Adamxcrash
 ```
 ```
 python3 main.py
