@@ -52,11 +52,10 @@ def main():
 	system('cls||clear')
 
 logo='''%s
- __   __   __         ______     _____    
-/\ \ / /  /\ \       /\  ___\   /\  __-.  
-\ \ \' /   \ \ \____  \ \  __\   \ \ \/\ \ 
- \ \__|    \ \_____\  \ \_____\  \ \____- 
-  \/_/      \/_____/   \/_____/   \/____/ 
+    _   ___   _   __  __ 
+   /_\ |   \ /_\ |  \/  |
+  / _ \| |) / _ \| |\/| |
+ /_/ \_\___/_/ \_\_|  |_|
 %sA Whatsapp Number Ban Tool By Dark Adam%s|%s Turn on the less secure apps option.\n'''%(Azul,Branco,Azul,Branco)
 ##################
 if __name__ == '__main__':
