@@ -27,8 +27,8 @@ def init(gmail, password, titulo, body):
 def main():
 	while True:
 		system('cls||clear')
-		op = input('''%s- %Github% : @Adamx king#404
-  %sWhatsapp%s  : unkown
+		op = input('''\n%s- %sDiscord%s  : kine azul#3189
+- %sYoutube%s  : https://youtube.com
 - %sTelegram%s : @Adamxking\n\n[%s 1 %s] %s|%s Ban number\n[%s 2 %s] %s|%s Unban number\n[%s 0 %s] %s|%s Exit\n%s===> %s'''%(logo,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco))
 		if op in ['0']:
 			break
@@ -36,7 +36,7 @@ def main():
 		elif op in ['1','2']:
 			open('https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4OSggjYOgt8g8HbgSU58LpUqQ5GsD63ipENqa84YegMHionqqvIXMMoc4bqu-C0GH0N--Kal_AFpd5rRJYyO0g-y1AbEQ');system('termux-open-url https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4OSggjYOgt8g8HbgSU58LpUqQ5GsD63ipENqa84YegMHionqqvIXMMoc4bqu-C0GH0N--Kal_AFpd5rRJYyO0g-y1AbEQ')
 			try:
-				numero=str(input('%s[ %sNumber%s ] - %s'%(Azul,Branco,Azul,Branco,Azul,Branco)))
+				numero=str(input('%s[ %sNumber %s ] -%s'%(Azul,Branco,Azul,Branco,Azul,Branco)))
 		                #Aqui você pode colocar um novo texto ou alterar um já existente.
 				op={
 				'1':'Desative este número|Estou solicitando a desativação temporária da minha conta no whatsapp, meu numero: %s'%numero,
@@ -52,11 +52,12 @@ def main():
 	system('cls||clear')
 
 logo='''%s
-    _   ___   _   __  __ 
-   /_\ |   \ /_\ |  \/  |
-  / _ \| |) / _ \| |\/| |
- /_/ \_\___/_/ \_\_|  |_|
-%sA Whatsapp Number Ban Tool By Dark Adam\n%s•%s Turn on the less secure apps option.\n'''%(Azul,Branco,Azul,Branco)
+ __   __   __         ______     _____    
+/\ \ / /  /\ \       /\  ___\   /\  __-.  
+\ \ \' /   \ \ \____  \ \  __\   \ \ \/\ \ 
+ \ \__|    \ \_____\  \ \_____\  \ \____- 
+  \/_/      \/_____/   \/_____/   \/____/ 
+%sA WHATSAPP NUMBER BAN TOOL BY DARK ADAM\n%s•%s Turn on the less secure apps option.\n'''%(Azul,Branco,Azul,Branco)
 ##################
 if __name__ == '__main__':
 	main()
