@@ -51,13 +51,14 @@ def main():
 				pass
 	system('cls||clear')
 
-logo='''%s
- __   __   __         ______     _____    
-/\ \ / /  /\ \       /\  ___\   /\  __-.  
-\ \ \' /   \ \ \____  \ \  __\   \ \ \/\ \ 
- \ \__|    \ \_____\  \ \_____\  \ \____- 
-  \/_/      \/_____/   \/_____/   \/____/ 
-%sA WHATSAPP NUMBER BAN TOOL BY DARK ADAM\n%s•%s Turn on the less secure apps option.\n'''%(Azul,Branco,Azul,Branco)
+logo='''%s                              
+  ___            ___  __   __ 
+ / _ \    /\    / _ \|  \ /  |
+| |_| |  /  \  | |_| |   v   |
+|  _  | / /\ \ |  _  | |\_/| |
+| | | |/ /__\ \| | | | |   | |
+|_| |_/________\_| |_|_|   |_|
+%s %s•%sA WHATSAPP NUMBER BAN TOOL BY DARK ADAM\n%s•%s Turn on the less secure apps option.\n'''%(Azul,Branco,Azul,Branco)
 ##################
 if __name__ == '__main__':
 	main()
